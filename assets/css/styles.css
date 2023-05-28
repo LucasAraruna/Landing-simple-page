@@ -185,6 +185,13 @@ box-shadow: 0 0 10px 2px var(--secondary-color)
 }
 
 @media (max-width: 800px) {
+    h2 {
+        font-size: 5rem;
+        margin-left: -2rem;
+        align-items: center;
+        padding-left: 1rem;
+    }
+
     .intro-content, .grid {
         grid-template-columns: 1fr;
     }
