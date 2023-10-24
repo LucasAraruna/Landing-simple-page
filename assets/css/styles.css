@@ -68,7 +68,7 @@
     top: -4rem;
     left: -2rem;
     transform: rotate(5deg);
-    
+
 }
 
 .gallery-img {
@@ -185,12 +185,22 @@ box-shadow: 0 0 10px 2px var(--secondary-color)
 }
 
 @media (max-width: 800px) {
+
+    /* .menu-spacing {
+        display: block;
+    } */
+
+    html {
+        max-width:400px;
+    }
+
     h2 {
         font-size: 5rem;
         margin-left: -2rem;
         align-items: center;
         padding-left: 1rem;
     }
+
 
     .intro-content, .grid {
         grid-template-columns: 1fr;
@@ -200,7 +210,7 @@ box-shadow: 0 0 10px 2px var(--secondary-color)
         width: 100%;
         max-width: 100%;
         max-height: 100%;
-        
+
     }
 
     .gallery-img img {
